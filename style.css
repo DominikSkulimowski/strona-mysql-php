@@ -2,16 +2,19 @@ body {
     margin: 50px;
     padding: 0;
     background-color: rgba(79, 130, 219, 0.2);
-    font-family: verdana;
+    font-family: Verdana;
 }
 
 div {
-    border: 2px dashed black;
+    border: 1px solid black;
+    background-color: rgba(79, 130, 219, 0.171);
     text-align: center;
     font-size: 130%;
     width: 500px;
-    height: 300px;
-    margin: 100px auto;
+    height: 500px;
+    margin: 100px auto 60px;
+    padding-top: 50px;
+    border-radius: 8px;
 }
 
 input {
@@ -35,4 +38,12 @@ td {
 th,
 td {
     padding: 10px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+input[type="submit"] {
+    cursor: pointer;
 }

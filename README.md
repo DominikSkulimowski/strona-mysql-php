@@ -8,4 +8,4 @@ Aby uruchomić stronę
 
 Gdy port jest zajęty
 1. Zakończ proces zajmujący port: sudo fuser -k 8080/tcp
-2. Uruchom ponownie serwer PHP: php8.3 -S 0.0.0.0:8080
+2. Uruchom ponownie serwer PHP: php8.3 -S 0.0.0.0:8080g
