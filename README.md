@@ -1,1 +1,1 @@
-# strona-mysql-php
+# strona-php-mysql
