@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularz</title>
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -26,7 +26,7 @@
     </div>
 </body>
 <?php
-    include("polaczenie.php");
+    $polaczenie = mysqli_connect("127.0.0.1", "strona", "test123", "formularz");
     
     if(isset($_POST['dodaj'])) {
         if(trim($_POST['imie']) != "" && trim($_POST['nazwisko']) != "") {
@@ -48,7 +48,7 @@
             echo "<p class='komunikat'>Usunięto ostatnią osobę z bazy</p>";
         }
         else {
-            echo "<p class='komunikat'>Baza jest pusta";
+            echo "<p class='komunikat'>Baza jest pusta</p>";
         }
     }
 
